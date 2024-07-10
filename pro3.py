@@ -1,0 +1,10 @@
+basket=[["apple","bananas"],["milk","water"]]
+print(basket)
+input("press the enter to change the content")
+basket[0].insert(0,"orange")
+basket[0].append("kiwis")
+basket[1].remove("water")
+basket[1].insert(0,"coffee")
+basket[1].append("tea")
+basket.append([1,2,3])
+print(basket)
